@@ -19,7 +19,6 @@ print(dict[4]) #if key is not present it will throw exception (error)
 print(dict.get(5)) #""  ""  None
 
 
-
 k = dict.keys() #list
 print(k)
 v = dict.values() #values
