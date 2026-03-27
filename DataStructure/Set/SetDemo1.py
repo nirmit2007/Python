@@ -12,7 +12,7 @@ set is dynamic in size
 set is unordered..
 '''
 
-data = {}                  # it gives dict datatype
+data = {}     # it gives dict datatype
 print(type(data))
 
 data = set()  # it gives set datatype
