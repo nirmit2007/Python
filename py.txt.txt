@@ -1,0 +1,251 @@
+PYTHON:
+what is prog lang ????
+intrep:
+
+scripting lang or prog:
+
+dynamically typed and statically typed
+
+use case:
+--------
+Desktop app: chrome,whatsapp,word,365 : 
+WEB APPLCATION:w3,a , python: django
+Mobile app: :
+utilty app:
+Data science: AI,ML
+
+
+
+python is case sensitive
+
+operators:
+operators are the special symbol which is use to perform operation on operands
+
+Type of operators:
+
+unery operators: it required only 1 operands
+                : ++a ,a--....
+binery operators :
+                it required min 2 operands:
+
+ternery operators: ir required min 3 operand
+
+python does not have unery operators
+
+binery operators:
+1)arithmertic operators : +, -, * ,/,% , //(floor operators), **
+2)realtional operators  :>,<.>=<=, == , !=
+3)logical operators: and or not
+4)asignment operators : =, +=, -+,...
+5)bitwise operators
+
+6)membership operators : in,not in
+7)identity operators   : is,is not
+
+
+
+TYPE CAST:
+implicit type      explicit ty
+compiler           programmer
+
+int f =100.20;     int a = (int)100.20;
+printf(f) //100
+
+                        broad typecast
+                        narrow typecast
+
+                        5 ltr -->10 ltr narrow type cast
+                        15 ltr -->2 ltr --> broad type cast
+
+                        float type data --> int --> narrow type cast
+                        int type data --> float --> broad type cast
+
+decision making statements:
+1)if else
+2)switch case / match case..
+3)loops
+
+--------------------------------------------------------
+
+python does not follow {} braces
+it has indentations
+
+LOGICAL OP:
+and or not
+
+cond1 and cond2
+T ---> T ---->T
+T ---> F ---->f
+F -- -------->F
+
+cond1 or cond2
+T ---------->T
+F ---->T --->T
+F --->F----->F
+
+loops:
+enter control loops : for while
+
+python does not have
+exit control loop   : do while
+
+for loop and while
+
+for: when you know no of iteration (sp and ep)
+for each : This loop starts with 0 and goto end of string
+while : when we dont know no of iteration
+
+for(int i=1;i<=10;i++)
+for(initi;cond;inremtn)
+
+range function for loop
+
+0 -9
+range(10)
+1 to 94
+range(1,95)
+
+10 --> 0 -->
+range(10,-1,-1)
+
+20 ->0
+20 - 18 - 16 - 14
+range(20,-1,-2)
+
+-----------------------------------------------------------
+
+charatrstics:
+1) String is immutable: no modification can not allow eg: x = "India", x[0]="i"
+2) string stores data in index
+3) String is dynamic in size
+4) string allows duplicate chars
+5) data type of string is str
+
+String Duiltin Functions : 
+ord
+chr
+upper
+lower
+capilize
+title
+swapcase
+len
+lstrip
+rstrip
+strip
+isDigit
+isNumric
+isalpha
+isalnum
+isspace
+isprintable
+isUpper
+isLower
+istitle
+endswith
+strastswith
+index
+find
+repalce
+
+ds:
+
+list
+tuple
+dict
+set 
+
+------------------------------------------------------------
+
+list:
+list is collection of elements
+list allows duplicate elements
+list is hetrogenious
+list stores data in index
+list is iterable: loop
+list is supscritable:
+list is mutable
+data type of list is list
+we can decalre list using [] braces
+list is dynamic in size
+
+List builtIn functions:
+
+append()
+insert()
+extend()
+pop()
+remove()
+index()
+count()
+reverse()
+sort()
+
+-------------------------------------------------------------
+
+tuple:
+tuple is collection of elements
+typle allows duplicate elements
+tuple is hetrogenious
+tuple stores data in index
+tuple is iterable: loop
+tuple is supscritable:
+tuple is immutable
+data type of tuple is tuple
+we can decalre tuple () braces
+tuple is dynamic in size
+
+Tuple builtIn functions:
+
+type()
+count()
+index()
+append()
+
+-------------------------------------------------------------
+
+dict:
+dict stores data in key value pair {key:value}
+dict allows duplicate values not key
+dict is iterable
+dict is supscritable
+dist is mutabl
+data type of dict is dict
+we can create dict using  {} braces
+dynamic
+
+Dict builtIn functions:
+
+get()
+keys()
+values()
+items()
+update()
+pop()
+popitem()
+fromkeys()
+
+-------------------------------------------------------------
+
+set:
+set is collection of elements
+set does not allows duplicate elements
+set is hetrogenious
+set stores data in hash
+set is iterable: loop
+set is not supscritable:
+set is mutable
+data type of set is set
+we can decalre list using {} braces
+set is dynamic in size
+set is unordered..
+
+Set builtIn functions:
+
+pop()
+add()
+update()
+symmetric_difference()
+issuperset()
+issubset()
+intersection_update()

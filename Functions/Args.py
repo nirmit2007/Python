@@ -1,4 +1,4 @@
-def add(*num):
+def add(*num):  # stores in tuple
     for i in num:
         flag=True
         if(type(i)!=int):
