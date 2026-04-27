@@ -17,3 +17,22 @@ Match 3 : 7
 Total Score : 247
 
 All Players Total Score : 754
+Player Name : rohit
+Match 1 : 100
+Match 2 : 20
+Match 3 : 121
+Total Score : 241
+
+Player Name : Virat
+Match 1 : 90
+Match 2 : 98
+Match 3 : 78
+Total Score : 266
+
+Player Name : Kl
+Match 1 : 151
+Match 2 : 89
+Match 3 : 7
+Total Score : 247
+
+All Players Total Score : 754

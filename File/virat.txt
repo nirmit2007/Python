@@ -1,0 +1,12 @@
+Player Name : Virat
+Match 1 : 90
+Match 2 : 98
+Match 3 : 78
+Total Score : 266
+
+Player Name : Virat
+Match 1 : 90
+Match 2 : 98
+Match 3 : 78
+Total Score : 266
+

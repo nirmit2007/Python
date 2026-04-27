@@ -13,10 +13,10 @@ data = {"rohit":[100,20,121],"Virat":[90,98,78],"Kl":[151,89,7]}
 
 # total score - 1000
 
-with open("File/PlayerScore.txt", "a") as f:
-    alltotal = 0 
+for player, scores in data.items():
+    filename = f"File/{player.lower()}.txt"  
 
-    for player, scores in data.items():
+    with open(filename, "a") as f:
         f.write(f"Player Name : {player}\n")
 
         total = 0
@@ -28,8 +28,4 @@ with open("File/PlayerScore.txt", "a") as f:
             match_no += 1
 
         f.write(f"Total Score : {total}\n\n")
-
-        alltotal += total  
-
-    f.write(f"All Players Total Score : {alltotal}\n")
 
