@@ -1,0 +1,9 @@
+name = Nirmit
+age = 18
+
+name = Vidhi
+age = 20
+
+name = Khushi
+age = 23
+
