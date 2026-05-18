@@ -1,1 +1,0 @@
-# Check if any student age is greater than 24
